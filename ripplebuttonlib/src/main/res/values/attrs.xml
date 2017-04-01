@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleAnimButton">
+        <attr name="icon_src" format="reference"/>
+        <attr name="icon_src_pressed" format="reference"/>
+        <attr name="icon_width" format="dimension"/>
+        <attr name="icon_height" format="dimension"/>
+        <attr name="ripple_duration" format="integer"/>
+        <attr name="ripple_color" format="color"/>
+        <attr name="ripple_interval" format="integer"/>
+        <attr name="icon_margin" format="dimension"/>
+        <attr name="loading_stroke_width" format="dimension"/>
+        <attr name="icon_radius_type" format="enum">
+            <enum name="icon_around" value="0"/>
+            <enum name="icon_diagonal" value="1"/>
+        </attr>
+        <attr name="clip_padding" format="boolean"/>
+        <attr name="gravity">
+            <flag name="left" value="0x20"/>
+            <flag name="top" value="0x10"/>
+            <flag name="right" value="0x8"/>
+            <flag name="bottom" value="0x4"/>
+            <flag name="horizontal_center" value="0x2"/>
+            <flag name="vertical_center" value="0x1"/>
+            <flag name="center" value="0x3"/>
+        </attr>
+    </declare-styleable>
+</resources>
