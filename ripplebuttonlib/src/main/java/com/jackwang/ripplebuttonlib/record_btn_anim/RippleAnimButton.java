@@ -13,7 +13,6 @@ import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.graphics.SweepGradient;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -90,11 +89,11 @@ public class RippleAnimButton extends View {
         this(context, null);
     }
 
-    public RippleAnimButton(Context context, @Nullable AttributeSet attrs) {
+    public RippleAnimButton(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public RippleAnimButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public RippleAnimButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
         if (attrs != null) {
